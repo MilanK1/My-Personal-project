@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="LOL.css">
+  <title>Hello</title>
+</head>
+
+<body>
+  <a href="C:\PersonalPage/index.html"><button>Back</button></a>
+
+
+  <h1 id="text" style="color">Hello</h1>
+
+    <form onclick="colorChanger()">
+
+  	<input id="blue"type="radio" name="color" value="blue">blue<br></br>
+  	<input id="red" type="radio" name="color" value="red">red<br></br>
+  	<input id="static" type="radio" name="color" value="static">static<br></br>
+
+  </form>
+
+  <form onchange="colorful()" >
+  <input  id="backgroundChanger" style="color" type="color" name="color"></input>
+</form>
+<!-- create another input whcih you could put color, and the body will change by this colot, if not, it will say that you are stupid !-->
+
+
+<button id="button" onclick="colorFulTWO()">Enter</button>
+	<input id="colors" onchange="colorFulTWO()" type="text"><br></br>
+<li id="liColor"></li>
+
+
+<div class="rCol1" onmousemove="rCol()">
+<span id="rCol1"></span>
+</div>
+
+<div class="gCol2" onmousemove="gCol()">
+
+<span id="gCol2"></span>
+</div>
+<div class="bCol3" onmousemove="bCol()">
+<span id="bCol3"></span>
+	
+</div>
+<div class="black" onmousemove="black()">
+  <span id="white"></span>
+</div>
+
+<div class="white" onmousemove="white()">
+  <span id="black"></span>
+</div>
+
+  
+
+  </body>
+
+  <script src="LOL.js"></script>
+</html>

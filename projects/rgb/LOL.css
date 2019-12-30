@@ -1,0 +1,52 @@
+.black{
+	background: gray;
+}
+#form{
+ font-family: Comic Sans MS;
+}
+body{
+ background:gray;
+}
+#button{
+	height: 20px;
+	width: 60px;
+}
+#colors{
+	border-radius: 30px;
+	font-family: Comic Sans MS;
+}
+#button{
+	border-radius: 30px;
+	
+}
+#imageOfme{
+	height: 100px;
+	width: 100px;
+}
+
+div{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+  margin: 10px;
+  float: left;
+  padding: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+body{
+	transition: 30ms;
+}
+.rCol1{
+	background: red;
+}
+.gCol2{
+	background: green;
+}
+.bCol3{
+	background: blue;
+}
+
+.Milan{
+	color: blue;
+}
